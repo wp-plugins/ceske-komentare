@@ -3,22 +3,19 @@
 Plugin Name:       České komentáře
 Plugin URI:        https://github.com/fenix11/ceske-komentare
 Description:       Plugin převede všechny řetězce, kde se nachází slovo komentář do správného pádu. v 1.1 Lze nastavit vlastní řetězce.
-Author:            Petr Baloun
-Version:           1.5
+Version:           1.5.1
+Author:            fenixx
+Author URI:        http://blog.doprofilu.cz
 License:           GNU General Public License v2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
-Domain Path:       /languages
-Text Domain:       ceske-komentare
-GitHub Plugin URI: https://github.com/fenix11/ceske-komentare
-GitHub Branch:     master
 */
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-function pridat() {
 
+function pridat() {
     // Activation code here...
 	add_option( 'pocet0', 'Žádný komentář', '', 'yes' );
 	add_option( 'pocet1', '1 komentář', '', 'yes' );
@@ -61,26 +58,20 @@ $output = str_replace('%', number_format_i18n($number), $pocet5);
 return $output; } 
 
 
+
 add_action('comments_number', 'ceske_komentare', 10, 2);
 
-add_filter('plugin_action_links', 'myplugin_plugin_action_links', 10, 2);
 
-function myplugin_plugin_action_links($links, $file) {
-    static $this_plugin;
-
-    if (!$this_plugin) {
-        $this_plugin = plugin_basename(__FILE__);
-    }
-
-    if ($file == $this_plugin) {
-        // The "page" query string value must be equal to the slug
-        // of the Settings admin page we defined earlier, which in
-        // this case equals "myplugin-settings".
-        $settings_link = '<a href="' . get_bloginfo('wpurl') . '/wp-admin/options-general.php?page=ceske_komentare">Nastavení</a>';
-        array_unshift($links, $settings_link);
-    }
-
-    return $links;
+function komentare_meta( $links, $file ) { // Add a link to this plugin's settings page
+	static $this_plugin;
+	if(!$this_plugin) $this_plugin = plugin_basename(__FILE__);
+	if($file == $this_plugin) {
+		$settings_link = '<a href="options-general.php?page=ceske_komentare">'.__('Nastavení', 'ceske-komentare').'</a>';	
+		array_unshift($links, $settings_link);
+	}
+	return $links; 
 }
+
+add_filter('plugin_row_meta','komentare_meta', 10, 2);	
 
 ?>
