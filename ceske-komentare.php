@@ -3,7 +3,7 @@
 Plugin Name:       České komentáře
 Plugin URI:        http://blog.doprofilu.cz
 Description:       Plugin převede všechny řetězce, kde se nachází slovo komentář do správného pádu. v 1.1 Lze nastavit vlastní řetězce.
-Version:           1.5.4
+Version:           1.5.5
 Author:            fenixx
 Author URI:        http://blog.doprofilu.cz
 License:           GNU General Public License v2
@@ -50,7 +50,7 @@ global $pocet0,$pocet1,$pocet2,$pocet5;
 if ( $number == 0) $output = $pocet0;
 elseif ($number == 1 )
 $output = str_replace('%', number_format_i18n($number), $pocet1);
-elseif ($number > 1  and $number < 4 )
+elseif ($number > 1  and $number < 5 )
 $output = str_replace('%', number_format_i18n($number), $pocet2);
 else
 $output = str_replace('%', number_format_i18n($number), $pocet5);

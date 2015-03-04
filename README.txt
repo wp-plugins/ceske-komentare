@@ -4,7 +4,7 @@ Donate link: http://blog.doprofilu.cz
 Tags: komentáře,čeština,wordpress,
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.5.4
+Stable tag: 1.5.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,7 +20,7 @@ Plugin opravuje chybu komentářů, které nejsou stavěné na české skloňov�
 Postup instalace
 
 
-1. Stáhněte plugin Česk=-komentáře.zip
+1. Stáhněte plugin České-komentáře.zip
 2. Přejděte do administrace wordpressu
 3. Uložte plugin přes administraci pluginů ve wordpressu
 4. Aktivujte plugin České komentáře
@@ -42,6 +42,9 @@ Zde budou doplněny odpovědi na nejčastější dotazy.
 Tyto řádky si můžete změnit v administraci pluginu.
 
 == Changelog ==
+
+= 1.5.5 =
+* Úprava přepočítání komentářů
 
 = 1.5.4 =
 * Přidán screen z administrace pluginu
