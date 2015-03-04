@@ -1,10 +1,10 @@
 ﻿=== Plugin Name ===
-Contributors: (this should be a list of wordpress.org userid's)
+Contributors: FeniXx
 Donate link: http://blog.doprofilu.cz
 Tags: komentáře,čeština,
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.5.2
+Stable tag: 1.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,8 +13,6 @@ Plugin se stará o správně zobrazování počtu komentářů na stránce webu.
 == Description ==
 
 Plugin opravuje chybu komentářů, které nejsou stavěné na české skloňování. V jednoduché administraci můžete nastavit své vlastní řetězce pro určitý počet komentářů.
-
-A few notes about the sections above:
 
 
 == Installation ==
@@ -39,13 +37,14 @@ Druhá možnost
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Ukázka základního nastavení po první aktivaci pluginu. `/assets/ukazka.jpg`
+
+Tyto řádky si můžete změnit v administraci pluginu.
 
 == Changelog ==
+
+= 1.5.3 =
+* Přidání odkaz na autora ve WordPress.org
 
 = 1.5.2 =
 * Úprava kódování
