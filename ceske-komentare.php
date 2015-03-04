@@ -20,7 +20,7 @@ function pridat() {
 	add_option( 'pocet0', 'Žádný komentář', '', 'yes' );
 	add_option( 'pocet1', '1 komentář', '', 'yes' );
 	add_option( 'pocet2', '% komentáře', '', 'yes' );
-	update_option( 'pocet5', '% komentářů', '', 'yes' );
+	add_option( 'pocet5', '% komentářů', '', 'yes' );
 }
 register_activation_hook( __FILE__, 'pridat' );
 

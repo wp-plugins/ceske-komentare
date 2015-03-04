@@ -47,6 +47,12 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
+= 1.5.1 =
+* Oprava chybného zobrazení při aktivaci pluginu
+
+= 1.5 =
+* Plugin přidán na WordPress.org
+
 = 1.4 =
 * Přidán odkaz do administrace pluginů
 * Přemístěn odkaz administrace, do submenu v Nastavení
