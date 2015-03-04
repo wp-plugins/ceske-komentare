@@ -1,14 +1,14 @@
 ﻿=== Plugin Name ===
 Contributors: FeniXx
 Donate link: http://blog.doprofilu.cz
-Tags: komentáře,čeština,
+Tags: komentáře,čeština,wordpress,
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.5.3
+Stable tag: 1.5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin se stará o správně zobrazování počtu komentářů na stránce webu. Je možné si nastavit vlastní řetězce, které se při určitém počtu budou zobrazovat.
+Plugin se stará o správně zobrazování počtu komentářů na stránce webu. Je možné si nastavit vlastní řetězce.
 
 == Description ==
 
@@ -33,15 +33,18 @@ Druhá možnost
 
 == Frequently Asked Questions ==
 
-
+Zde budou doplněny odpovědi na nejčastější dotazy.
 
 == Screenshots ==
 
-1. Ukázka základního nastavení po první aktivaci pluginu. `/assets/ukazka.jpg`
+1. Ukázka základního nastavení po první aktivaci pluginu.
 
 Tyto řádky si můžete změnit v administraci pluginu.
 
 == Changelog ==
+
+= 1.5.4 =
+* Přidán screen z administrace pluginu
 
 = 1.5.3 =
 * Přidání odkaz na autora ve WordPress.org
