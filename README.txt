@@ -1,10 +1,10 @@
 ﻿=== Plugin Name ===
-Contributors: FeniXx
+Contributors: (this should be a list of wordpress.org userid's)
 Donate link: http://blog.doprofilu.cz
 Tags: komentáře,čeština,
 Requires at least: 3.0.1
-Tested up to: 4.1.1
-Stable tag: 1.5.1
+Tested up to: 4.1
+Stable tag: 1.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,11 +47,11 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
-= 1.5.1 =
-* Oprava chybného zobrazení při aktivaci pluginu
+= 1.5.2 =
+* Úprava kódování
 
 = 1.5 =
-* Plugin přidán na WordPress.org
+* Plugin přidán na Wordpress.org
 
 = 1.4 =
 * Přidán odkaz do administrace pluginů

@@ -1,9 +1,9 @@
-﻿<?php
+<?php
 /*
 Plugin Name:       České komentáře
 Plugin URI:        https://github.com/fenix11/ceske-komentare
 Description:       Plugin převede všechny řetězce, kde se nachází slovo komentář do správného pádu. v 1.1 Lze nastavit vlastní řetězce.
-Version:           1.5.1
+Version:           1.5.2
 Author:            fenixx
 Author URI:        http://blog.doprofilu.cz
 License:           GNU General Public License v2
