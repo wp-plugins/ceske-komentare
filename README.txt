@@ -1,10 +1,10 @@
 ﻿=== Plugin Name ===
-Contributors: FeniXx
+Contributors: Petr Baloun
 Donate link: http://blog.doprofilu.cz
 Tags: komentáře,čeština,wordpress,
 Requires at least: 3.0.1
-Tested up to: 4.1
-Stable tag: 1.5.5
+Tested up to: 4.2.2
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,16 @@ Zde budou doplněny odpovědi na nejčastější dotazy.
 Tyto řádky si můžete změnit v administraci pluginu.
 
 == Changelog ==
+
+= 1.6 =
+* nahrává plugin's texdomain
+* přivádá localization functions pro všechny stringy užité v pluginu
+* ošetřuje XSS vulenrability
+* ošetřuje CSFR vulnerability
+* odstraňuje false-positive u "úspěšně uloženo"
+* ruší užití globálních proměných
+* přidává unikátní prefix pro všechny funkce * obsahuje úpravy kódu tak, aby vyhovovaly WordPress coding standards
+* Patch vytvořil: David Binda
 
 = 1.5.5 =
 * Úprava přepočítání komentářů
